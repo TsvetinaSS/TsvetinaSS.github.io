@@ -1,0 +1,69 @@
+h1 {
+  color: blue;
+}
+
+p, li {
+  color: rgb(49, 160, 211);
+  font-size: 25px;
+}
+
+li {
+  font: 1rem 'Fira Sans', sans-serif;
+  margin-bottom: .5rem;
+}
+
+.special {
+  color: orange;
+  font-weight: bold;
+}
+
+li.special {
+  color: orange;
+  font-weight: bold;
+}
+
+li.special,
+span.special {
+  color: orange;
+  font-weight: bold;
+}
+
+li em {
+  color: rebeccapurple;
+}
+
+/*adjacent sibling combinator. Style p that's directly after h1*/
+h1 + p {
+  font-size: 200%;
+}
+
+a:link {
+  color: rgb(218, 92, 218);
+}
+
+a:visited {
+  color: rgb(218, 92, 218);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h2 {
+  background-color: #66dce0;
+  color: #f0790a;
+}
+
+h3 {
+  background-color: #66dce0;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 55px;
+}
+
+ul.green{
+  color:rgb(6, 122, 31);
+  font-size: 130%;
+}
